@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['marchlik@unodor.cz']
   spec.homepage      = 'https://github.com/unodor/guard-annotate_gem'
   spec.summary       = 'Guard plugin for annotate_gem'
-  spec.description   = 'Automatically annotate Gemfile'
+  spec.description   = 'Guard::AnnotateGem automatically annotate your gems on update.'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
