@@ -1,0 +1,3 @@
+guard 'annotate_gem', inline: true do
+  watch('Gemfile.lock')
+end
